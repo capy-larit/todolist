@@ -1,0 +1,22 @@
+{
+  "todos": [
+    {
+      "id": 0.4533314980152281,
+      "title": "Lavar a louça",
+      "time": "20min",
+      "done": false
+    },
+    {
+      "id": 0.5167105532689986,
+      "title": "Passear com o cachorro",
+      "time": "20min",
+      "done": true
+    },
+    {
+      "id": 0.35774970705879605,
+      "title": "Ir ao mercado",
+      "time": "40min",
+      "done": false
+    }
+  ]
+}
