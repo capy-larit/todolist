@@ -11,15 +11,15 @@
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.185);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.todo-header {
+    padding: 0.5em;
+    border-bottom: 5px solid #5f039c2d;
+    text-align: center;
+    font-family: 'Mukta', sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.todo-header h1 {
+    margin: 0;
 }
 
 .App-header {
