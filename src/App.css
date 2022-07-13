@@ -28,15 +28,54 @@
     border-bottom: 2px solid #5f039c2d;
 }
 
-.App-link {
-  color: #61dafb;
+.form-todo h2,
+.list-todo h2 {
+    text-align: center;
+    margin-top: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.form-control {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
 }
+
+.form-control label {
+    font-weight: bold;
+    margin-bottom: .4em;
+}
+
+.form-control input {
+    border: 1px solid rgba(56, 0, 73, 0.322);
+    border-radius: 9px;
+    background-color: rgba(179, 87, 182, 0.205);
+    padding: .5em;
+    color: #430446bd;
+}
+
+input[type="submit"] {
+    width: 100%;
+    cursor: pointer;
+    padding: 1em;
+    display: block;
+    border: 1px solid rgb(138, 0, 180);
+    border-radius: 5px;  
+    color: aliceblue;
+    background-color: #660c66d7;  
+    font-family: 'Comfortaa', cursive;
+    font-weight: bold;
+}
+
+.list-todo {
+    padding: 0 1em 2em;
+    margin: 1em 2em;
+}
+
+.list-todo h2 {
+    margin-bottom: 0;
+}
+
+.list-todo p {
+    text-align: center;
+}
+
