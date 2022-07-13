@@ -111,3 +111,9 @@ input[type="submit"] {
     color: rgb(240, 98, 146);
 }
 
+.loading {
+    text-align: center;
+    color: aliceblue;
+    font-size: 5em;
+    font-weight: bold;
+}
